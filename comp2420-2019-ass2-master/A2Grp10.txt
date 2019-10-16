@@ -1,0 +1,103 @@
+                     ==============================
+                       COMP2420, Semester 1, 2019
+                         Assignment 2 Mark Sheet
+                     ==============================
+
+=======================================================
+  Uni Id  | Lab Group  | Tutor                  
+=======================================================
+ u6474528   wed09-11a    Afzal Ahmad
+ u6485573   thu15-17     Xu Wang
+ u6284513   thu15-17     Xu Wang
+=======================================================
+
+Group Number : A2Grp10
+
+Gitlab Repo : gitlab.cecs.anu.edu.au:u6284513/comp2420-2019-ass2
+
+Markers
+-------
+
+Database Management: Cody Christopher
+Data Acquisition: Alexei Khorev
+Machine Learning:
+  Short answers and k-means: Hanif Rasyidi
+  Classification: Xu Wang
+Decision Trees: Harshit Trivedi
+
+Marks
+=====
+
+========================================
+ Database Management 
+   Q1                         :    3/3
+   Q2                         :    3/3
+   Q3                         :    4/4
+   Q4                         :    2/5
+
+ Data Acquisition             :    16/20
+
+ Machine Learning
+   Short Answers
+   Q1.1.1                     :    4/4
+   Q1.1.2                     :    2/4
+
+   K-Means Clustering
+   Q1.2.1                     :    11/15
+   Q1.2.2                     :    2/2
+
+   Classification
+   Q2.1                       :    18/25
+   Q2.2                       :    4/5
+
+ Decision Trees
+   Q1                         :    3/3
+   Q2                         :    3/3
+   Q3                         :    3.5/4
+
+ Penalty (if any)             :    /100 
+========================================
+   Total (max 100)            :  78.5
+========================================
+
+
+Feedback
+========
+
+Database Management
+-------------------
+q4 will find any customer who has borrowed two
+different inventory from any two stores, as 
+opposed to those who have borrowed at least from
+either 1 or 2.
+
+
+Data Acquisition
+----------------
+
+two selective queries from joins, with additional DF' adjustments
+
+Machine Learning
+----------------
+Short Answers and K-Means
+.........................
+The randomness of k-means id introduced by the random selection of initial centroids plus the deterministic computation/assignments. "Random state" is not enough to explain this question.
+
+Your implementation of model is fairly good but you have not provided the justification for k and iterations. 
+
+
+
+Classification
+..............
+Model:  Answer can be improved by trying other classification model, testing different attribute sets and tuning model parameters.(13)
+Justification: Answer can be improved by providing strengths and pitfalls for the model. Also, MSE, MAE, RMSE, R2 are metrics for continuous outputs (e.g. regression tasks).(5)
+Short Answer: Answer can be improved by analysing the cons as well.(4)
+
+
+Decision Trees
+--------------
+1. Correct!
+2. Correct! Good work with the reasoning.
+3. Correct, but make sure you calculate all values upto 3-4 digits for a better precision in the final result.
+
+
